@@ -1,0 +1,115 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap'); */
+
+body{
+    height: 100vh;
+}
+*{
+   box-sizing:border-box;
+}
+
+/* body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(243, 242, 244);
+} */
+
+.header{
+    background-color:#E64E51;
+}
+
+.demo1{
+    height:68px;
+    width:100px;
+    background-image: url('./images/304252.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.demo-card-wide.mdl-card {
+    width: 100vw;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 500px;
+    background: url('	https://st.redbus.in/images/SearchBus/Web-banner%20%281%29.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  .input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #sample1{
+    margin-right:0px;
+    height:35px;
+    border: none;
+    border-color: rgb(210,210,210);
+  }
+  #sample1:focus{
+    outline: none;
+  }
+  .box1{
+    background-color:#fff;
+    color:#4a4a4a;
+    border-right:2px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 2px 2px, rgba(0, 0, 0, 0.23) 0px 2px 2px;
+
+  }
+  .box1>span{
+    position: relative;
+    top:4px;
+  }
+  .box1>label{
+    font-size: smaller;
+  }
+  .input > button{
+    background-color:#E64E51 ;
+    color:white;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 2px 2px, rgba(0, 0, 0, 0.23) 0px 2px 2px;
+
+  }
+
+  .cards{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:35px;
+  }
+  .demo1-card-wide{
+    text-align: center;
+  }
+ 
+  .demo11-card-wide{
+    width:50%;
+    min-height:70px;
+    background-color: #fff;
+    position:relative;
+    left:25%;
+    top:-95px;
+   
+  }
+  .footer{
+    background-color: #1B2330;
+  }
+
+  .footer1{
+    background-color: #1B2330;
+    display: flex;
+    /* justify-content:flex-start; */
+    /* align-items: center; */
+  }
+
+.mdl-mega-footer{
+  background-color: #1B2330;
+  color:white;
+
+}
+ 
+ 
